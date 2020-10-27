@@ -23,6 +23,7 @@ article, aside, details, figcaption, figure,
 footer, header, hgroup, menu, nav, section {
 	display: block;
 }
+
 body {
 	line-height: 1;
 }
@@ -179,7 +180,7 @@ input[type=submit] {
 }
 
 .closed{
-    height:0;
+    height:0 !important;
 }
 
 .cards {
